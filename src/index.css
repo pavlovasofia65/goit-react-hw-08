@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-left: auto;
+  min-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
 }
 
 a {
@@ -23,11 +28,12 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
   place-items: center;
+  width: 100%;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 h1 {

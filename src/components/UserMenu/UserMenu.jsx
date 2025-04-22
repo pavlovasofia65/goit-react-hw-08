@@ -11,10 +11,8 @@ export const UserMenu = () => {
 
     return (
     <div className={css.wrapper}>
-        <p className={css.username}>Welcome, {user.name}</p>
-        <ContactForm />
-        <ContactList />
-        <button type="button" onClick={() => dispatch(logOut())}>
+        <p className={css.username}>Welcome, <span className={css.span}>{user.name}</span> !</p>
+        <button type="button" className={css.button} onClick={() => dispatch(logOut())}>
         Logout
         </button>
     </div>

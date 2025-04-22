@@ -21,7 +21,7 @@ export default function ContactForm() {
         dispatch(
             addContact({
             name: values.name,
-            phone: values.number,
+            number: values.number,
         }))
         actions.resetForm();
     }
@@ -39,7 +39,7 @@ export default function ContactForm() {
             <Field type='text' name='number' id='number' className={css.input}></Field>
             <ErrorMessage name='number' component='span'></ErrorMessage>
 
-            <button type='submit' className={css.btn}>Submit</button>
+            <button type='submit' className={css.btn}>Add</button>
         </Form>
     </Formik>);
 }

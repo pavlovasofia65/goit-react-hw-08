@@ -1,0 +1,29 @@
+
+.username{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    background-color: #fcf6d4;
+    border-radius: 10px;
+    color: #b189f7;
+    text-align: center;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.span{
+    font-weight: 700;
+    color: #9359f9;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.button{
+    height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

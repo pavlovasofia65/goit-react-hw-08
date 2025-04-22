@@ -1,17 +1,10 @@
 import css from './HomePage.module.css';
+import AppBar from '../../components/AppBar/AppBar';
 
 export default function HomePage() {
     return (
     <>
         <title>Welcome</title>
-        <div>
-            <h1>
-            Your Contact Book
-            <span role="img" aria-label="Greeting icon">
-                📇
-            </span>
-            </h1>
-        </div>
     </>
     );
   }
